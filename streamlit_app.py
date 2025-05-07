@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Load OpenAI API key from Streamlit secrets
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx"]
 
 st.set_page_config(page_title="AI Chatbot", layout="centered")
 st.title("🤖 AI Chatbot")
